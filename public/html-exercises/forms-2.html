@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <title> Forms-2 </title> 
+        <body>
+         <h2>Order Form</h2>
+                <form>
+               <fieldset>
+    <legend>Customer Details</legend><br>
+    <label> Customer name: <input type="text" name="name" required></label><br><br>
+     <label> Mobile number: <input type="text" name="cell no" required></label><br><br>
+    <label> E-mail address: <input type="email" name="email add"></label><br><br>
+             </fieldset>
+             <fieldset>
+    <legend>Pizza Options</legend><br>
+    <label>Flavor:
+            <select name="flavor">
+            <option value="hawaiian">Hawaiian</option>
+             <option value="cheese">Double Cheese</option>
+            <option value="white">Margherita</option>
+            <option value="bbc">Barbecue Bacon Cheeseburger</option>
+             <option value="p&c">Pepperoni and Cheese</option></select>
+                </label> <br><br>
+            Size:<br>
+    <label><input type="radio" name="size" value="s"> Small </label>
+     <label><input type="radio" name="size" value="m"> Medium </label>
+    <label><input type="radio" name="size" value="l"> Large </label>
+                        <br><br>
+            Extra Toppings:<br>
+    <label><input type="checkbox" name="extra" value="bacon" > Bacon </label>
+     <label><input type="checkbox" name="extra" value="cheese" > Cheese </label>
+    <label><input type="checkbox" name="extra" value="onion" > Onion </label>
+     <label><input type="checkbox" name="extra" value="mushroom" > Mushroom </label><br><br>
+               </fieldset>
+               <fieldset>
+    <legend>Delivery Details</legend><br>
+    <label> Delivery date: <input type="date" name="ddate" required></label><br><br>
+     <label> Preferred delivery time: <input type="time" name="time" required></label>
+                      <br><br>
+    <label> Delivery address: <br><textarea rows="5" cols="50" required></textarea></label><br><br>
+               </fieldset>
+            <br> <button type="reset">Reset</button>
+    <button type="submit">Submit Order</button>
+             </form>
+          </body>
+</html>
