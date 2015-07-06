@@ -1,5 +1,6 @@
 body {font-family:Arial;}
-.whole {background-color:#cbe5ff;}
+.whole {background-color:#cbe5ff;
+width:900px;}
 .preview {background-color:#84befe;}
 .container {width:900px;}/* if link is not yet visited */
 a:link {color:white;background-color:#84befe;}/* if link is already visited*/
