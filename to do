@@ -1,12 +1,12 @@
 box model 1 - ok   
 box model 2 - 
-box model 3 -
+box model 3 -ok
 resp layout 1-ok
 selectors 1-
 val units 1 -ok
 box model 1-ok
 box model 2-
-box model 3-
+box model 3-ok
 latest feat 1-
 latest feat 2-
 resp layout 1-ok
@@ -18,13 +18,10 @@ val units 2-ok
 
 
 box model 2 css
-box model 3 css 
 selectors 1 css
 
 box model 2 html
-box model 3 html
-latest feat
-latest feat
-resp layout
-selectors 1
-
+latest feat html
+latest feat html
+resp layout html
+selectors 1 html
