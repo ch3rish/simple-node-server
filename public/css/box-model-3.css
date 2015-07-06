@@ -1,9 +1,83 @@
-body {font-family:Arial;}
-.whole {background-color:#cbe5ff;
-width:900px;}
-.preview {background-color:#84befe;}
-.container {width:900px;}/* if link is not yet visited */
-a:link {color:white;background-color:#84befe;}/* if link is already visited*/
-a:visited {color:white;background-color:#84befe;}/* if link is hovered (mouse over) */
-a:hover {color:#84befe;background-color:white;}
-.rect {position:fixed;top:200px;right:-5px;}
+body { font-family: "arial";padding-left:180px;padding-right:50px;}
+.whole {width: 900px;
+    background-color: #cbe5ff;}
+.nav {margin-left: 44px;}
+.nav a {background-color: #84befe;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 164.8px;
+    margin: -4px;
+    border: 1px solid white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;}
+a:hover {background-color: white;
+    color: #84befe;}
+.header {background-color: transparent;
+    width: 900px;}
+.preview {background-color: #84befe;
+    height: 400px;
+    width: 660px;
+    margin-bottom: -180px;
+    margin-left: 240px;
+    position: relative;
+    top: -200px;
+    left: -40px;}
+.box {background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    position: relative;
+    top: 80px;
+    z-index: 1;}
+.mid {background-color: white;
+    width: 820px;
+    margin-left: 40px;
+    height: 500px;}
+.last { margin-left: 40px;
+    margin-top: 20px;
+    background-color: white;
+    width: 820px;
+    height: 200px;}
+.left { width: 410px;
+    height: 188px;
+    background-color: white;
+    border: 2px dashed #cbe5ff;
+    position: relative;
+    top: 4px;
+    margin-left: 4px;}
+.left-head {background-color: #84befe;
+    width: 404px;
+    height: 50px;
+    margin-left: 3px;
+    margin-top: 3px;}
+.right { width: 388px;
+    height: 187px;
+    background-color: white;
+    border: 2px dashed #cbe5ff;
+    position: relative;
+    top: -187px;
+    left: 420px;
+    margin-left: 4px;}
+.right-head {background-color: #84befe;
+    width: 382px;
+    height: 50px;
+    margin-left: 3px;
+    margin-top: 3px;}
+.footer {color: #84befe;
+    text-align: right;
+    margin-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 60px;}
+.rect {border: 2px dashed #84befe;
+    width: 30px;
+    position: fixed;
+    top: 250px;
+    right: -10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;}
+.rect a {color: #84befe;
+    text-decoration: none;}
