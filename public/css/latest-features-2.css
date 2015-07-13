@@ -1,7 +1,5 @@
 body{
-font-family: Comfortaa;
-}
-
+font-family: Comfortaa;}
 .rect{
 position:fixed;
 top:200px;
@@ -23,16 +21,14 @@ border-radius:10px;
 
 .rect a:link{
 text-decoration:none;
-color:#84befe;
-}
+color:#84befe;}
 
 .whole{
 background: linear-gradient(to top, #84befe, white);
 
 margin:auto;
 
-width:980px;
-}
+width:980px;}
 
 .header{
 width:900px;
