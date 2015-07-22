@@ -239,6 +239,7 @@ unbindInterval: function() {
 clearInterval(this.t);
 this.$win.unbind('scroll.onePageNav');
 }
+
 };
 
 OnePageNav.defaults = OnePageNav.prototype.defaults;
