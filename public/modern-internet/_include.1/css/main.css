@@ -25,7 +25,7 @@ html, hmtl a{
 
 body{
 	background:#2F3238;
-	color:#7F8289;
+	color:#000000;
 	font-weight:300;
 	font-size:16px;
 	font-family: 'Titillium Web', sans-serif;
@@ -34,7 +34,7 @@ body{
 
 
 a{
-	color:#DE5E60;
+	color:#33cccc;
 	text-decoration: none;
 	cursor: pointer;
 	
@@ -48,7 +48,7 @@ a:hover,
 a:active,
 a:focus{
 	outline: 0;
-	color:#FFFFFF;
+	color:#000000;
 	text-decoration:none;
 }
 
@@ -104,7 +104,7 @@ hr {
 }
 
 .color-text {
-    color: #DE5E60;
+    color: #33cccc;
 }
 
 .through{
@@ -203,7 +203,7 @@ h4,
 h5,
 h6{
 	margin:0 0 20px 0;
-	color:#FFFFFF;
+	color:#000000;
 	font-weight:300;
 	font-family: 'Titillium Web', sans-serif;
 	line-height:1.5em;
@@ -373,7 +373,7 @@ h3.spec {
 
 #home-slider #nextslide:hover,
 #home-slider #prevslide:hover {
-	background-color:#DE5E60;
+	background-color:#33cccc;
 }
 
 #home-slider #nextslide i,
@@ -431,7 +431,7 @@ h3.spec {
 
 #home-slider ul#slide-list li.current-slide a,
 #home-slider ul#slide-list li.current-slide a:hover {
-	background-color:#DE5E60;
+	background-color:#33cccc;
 }
 
 #home-slider #nextsection {
@@ -449,7 +449,7 @@ h3.spec {
 }
 
 #home-slider #nextsection:hover {
-	background-color:#DE5E60;
+	background-color:#33cccc;
 }
 
 #home-slider #nextsection i {
@@ -542,7 +542,7 @@ nav#menu #menu-nav li a {
 
 nav#menu #menu-nav li.current a,
 nav#menu #menu-nav li a:hover {
-	color: #DE5E60;
+	color: #33cccc;
 }
 
 
@@ -617,7 +617,7 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .page {
-	background: #2F3238;
+	background: #339999;
 	padding: 50px 0;
 	position: relative;
 	z-index: 99;
@@ -671,7 +671,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .work-nav #filters li a {
-	color: #7F8289;
+	color: #ffffff;
 	font-size: 16px;
 	display: block;	
 }
@@ -681,7 +681,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .work-nav #filters li a.selected {
-	color: #DE5E60;
+	color: #000000;
 }
 
 #thumbs {
@@ -741,7 +741,7 @@ nav#menu #menu-nav li a:hover {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: #DE5E60;
+	background: #33cccc;
 	
 	opacity: 0.80;
 	filter: alpha(opacity=80);
@@ -762,129 +762,11 @@ nav#menu #menu-nav li a:hover {
 
 
 /* ==================================================
-   About Section
-================================================== */
-
-.profile-name {
-	margin-bottom: 15px;	
-}
-
-.profile-description {
-	margin-bottom: 25px;	
-}
-
-.image-wrap {
-	position: relative;
-	overflow: hidden;
-	margin-bottom: 25px;
-	cursor: pointer;
-}
-
-.image-wrap img {
-	width: 100%;	
-}
-
-.image-wrap  .hover-wrap {
-	position: absolute;
-	display: block;
-	width: 100%;
-	height: 100%;
-	
-	opacity: 0;
-	filter: alpha(opacity=0);
-	
-	-webkit-transition: all 450ms ease-out 0s;	
-	   -moz-transition: all 450ms ease-out 0s;
-		 -o-transition: all 450ms ease-out 0s;
-		    transition: all 450ms ease-out 0s;
-		  
-	-webkit-transform: rotateY(180deg) scale(0.5,0.5);
-	   -moz-transform: rotateY(180deg) scale(0.5,0.5);
-		-ms-transform: rotateY(180deg) scale(0.5,0.5);
-		 -o-transform: rotateY(180deg) scale(0.5,0.5);
-			transform: rotateY(180deg) scale(0.5,0.5);	
-}
-
-.image-wrap:hover .hover-wrap,
-.image-wrap.active .hover-wrap {
-	opacity: 1;
-	filter: alpha(opacity=100);
-	
-	-webkit-transform: rotateY(0deg) scale(1,1);
-	   -moz-transform: rotateY(0deg) scale(1,1);
-		-ms-transform: rotateY(0deg) scale(1,1);
-		 -o-transform: rotateY(0deg) scale(1,1);
-		    transform: rotateY(0deg) scale(1,1);
-}
-
-.image-wrap .hover-wrap .overlay-img {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: #DE5E60;
-	
-	opacity: 0.80;
-	filter: alpha(opacity=80);
-}
-
-.image-wrap .hover-wrap .overlay-text-thumb {
-	position: absolute;
-	width: 100%;
-	height: 32px;
-	top: 50%;
-	margin: -16px 0 0 0;
-	color: #FFFFFF;
-	font-size: 20px;
-	font-weight: 300;
-	line-height: 32px;
-	text-transform: uppercase;
-	text-align: center;
-	
-	opacity: 1;
-	filter: alpha(opacity=100);
-}
-
-.social-icons {
-	margin: 0;
-	padding: 0;
-}
-
-.social-icons li {
-	display: inline-block;
-	margin-left: 15px;	
-}
-
-.social-icons li:first-child {
-	margin-left: 0;
-}
-
-.social-icons li a{
-	color: #FFFFFF;
-	font-size: 16px;
-	line-height: 1em;
-	width: 16px;
-	height: 16px;
-	
-	opacity: 0.3;
-	filter: alpha(opacity=30);
-	
-	-webkit-transition: opacity 0.1s linear 0s;	
-	   -moz-transition: opacity 0.1s linear 0s;
-		 -o-transition: opacity 0.1s linear 0s;
-		    transition: opacity 0.1s linear 0s;
-}
-
-.social-icons li a:hover{
-	opacity: 1;
-	filter: alpha(opacity=100);
-}
-
-/* ==================================================
    Contact Section
 ================================================== */
 
 .contact-details h3 {
-	color: #FFFFFF;
+	color: #000000;
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 30px;
@@ -904,84 +786,6 @@ nav#menu #menu-nav li a:hover {
 	padding: 0;	
 }
 
-#contact-form {
-	margin-bottom: 0;	
-}
-
-#contact-form p {
-	margin-bottom: 1px;	
-}
-
-#contact-form input,
-#contact-form textarea {
-    border: none;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-    border-radius: 0;
-	
-    -webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-	
-	background: #26292E;
-    color: #FFFFFF;
-    font-size: 16px;
-    height: auto;
-    padding: 15px;
-	margin: 0;
-	
-    resize: none;
-}
-
-#contact-form input {
-    width: 100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-#contact-form textarea {
-    width: 100%;
-	resize: vertical;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-#contact-form .submit {
-    background: #3C3F45;
-    color: #23262C;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 16px 40px;
-    text-align: center;
-    vertical-align: middle;
-    width: auto;
-	margin-top: 30px;
-	
-	-webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;	
-	   -moz-transition: background 0.1s linear 0s, color 0.1s linear 0s;
-		 -o-transition: background 0.1s linear 0s, color 0.1s linear 0s;
-		    transition: background 0.1s linear 0s, color 0.1s linear 0s;
-}
-
-#contact-form .submit:hover {
-    background: #DE5E60;
-    color: #FFFFFF;
-}
-
-#response {
-	margin-top: 20px;
-	color: #FFFFFF;
-}
-
-
-
-#work li p{
-	text-align: justify;
-}
 
 /* ==================================================
    Footer
@@ -1103,7 +907,7 @@ footer .credits {
 	margin: -50px 0 0 -50px;
 	width: 100px;
 	height: 100px;
-	background: #DE5E60;
+	background: #33cccc;
 	-webkit-border-radius: 999px;
 	-moz-border-radius: 999px;
 	border-radius: 999px;
@@ -1175,70 +979,3 @@ footer .credits {
 	}
 }
 
-
-/* ==================================================
-   Isotope Filtering
-================================================== */
-
-/**** Isotope Filtering ****/
-
-.isotope-item {
-  z-index: 2;
-}
-
-.isotope-hidden.isotope-item {
-  pointer-events: none;
-  z-index: 1;
-}
-
-/**** Isotope CSS3 transitions ****/
-
-.isotope,
-.isotope .isotope-item {
-  -webkit-transition-duration: 0.8s;
-     -moz-transition-duration: 0.8s;
-      -ms-transition-duration: 0.8s;
-       -o-transition-duration: 0.8s;
-          transition-duration: 0.8s;
-}
-
-.isotope {
-  -webkit-transition-property: height, width;
-     -moz-transition-property: height, width;
-      -ms-transition-property: height, width;
-       -o-transition-property: height, width;
-          transition-property: height, width;
-}
-
-.isotope .isotope-item {
-  -webkit-transition-property: -webkit-transform, opacity;
-     -moz-transition-property:    -moz-transform, opacity;
-      -ms-transition-property:     -ms-transform, opacity;
-       -o-transition-property:      -o-transform, opacity;
-          transition-property:         transform, opacity;
-}
-
-/**** disabling Isotope CSS3 transitions ****/
-
-.isotope.no-transition,
-.isotope.no-transition .isotope-item,
-.isotope .isotope-item.no-transition {
-  -webkit-transition-duration: 0s;
-     -moz-transition-duration: 0s;
-      -ms-transition-duration: 0s;
-       -o-transition-duration: 0s;
-          transition-duration: 0s;
-}
-
-/* End: Recommended Isotope styles */
-
-
-
-/* disable CSS transitions for containers with infinite scrolling*/
-.isotope.infinite-scrolling {
-  -webkit-transition: none;
-     -moz-transition: none;
-      -ms-transition: none;
-       -o-transition: none;
-          transition: none;
-}

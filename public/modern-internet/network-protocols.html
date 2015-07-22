@@ -1,6 +1,152 @@
+
 <!DOCTYPE html>
-<html>
-     <head>
-          <title> Network Protocols </title>
-     </head>
-          <body>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>The Modern Internet</title>   
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="_include.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="_include.1/css/main.css" rel="stylesheet">
+<link href="_include.1/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+<script src="_include.1/js/modernizr.js"></script>
+</head>
+
+<body>
+
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+        	<a id="goUp" title="Brushed | Responsive One Page Template">The Modern Internet</a>
+        </div>
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="#home-slider">Home</a></li>
+                <li><a href="contact.html" class="external">Contact</a></li>              
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- Our Work Section -->
+<div id="work" class="page">
+	<div class="container">
+    	
+        <!-- Portfolio Projects -->
+        <div class="row">
+        	<div class="span3">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters">                    	
+			
+			      		 <li><a href="index.html" class="external">Overview</a></li>
+			      		 <li><a href="blogging.html" class="external">Blogging</a></li>
+			     		 <li><a href="email.html" class="external">How Email Works</a></li>
+			    		 <li><a  class="selected">Current Network Protocols</a><li>                        
+			    		 <li><a href="email.html" class="external">Microblogging and Social Networking</a></li>
+                        <li><a href="search-engines.html" class="external">How Search Engine Works</a></li>
+                        <li><a href="video-streaming.html" class="external">Video Streaming</a></li>
+           				<li><a href="microblog-social-networking.html" class="external">Microblogging and Social Networking</a></li>
+      		   
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+            
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+                        
+				<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span9">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+				<h4>Current Network Protocols</h4>
+        			
+				<p> Prior to the 1960s, what little computer communication existed comprised simple text and binary data, carried 
+				by the most common telecommunications network technology of the day; namely, circuit switching, the technology of 
+				the telephone networks for nearly a hundred years. Because most data traffic is bursty in nature 					
+				circuit switching results in highly inefficient use of network resources.The fundamental technology that makes the 
+				Internet work is called packet switching, a data network in which all components (i.e., hosts and switches) operate 
+				independently, eliminating single point-of-failure problems. In addition, network communication 					
+				resources appear to be dedicated to individual users but, in fact, statistical multiplexing and an upper limit on the size 
+				of a transmitted entity result in fast, economical networks.</p>
+
+				<p>In the 1960s, packet switching was ready to be discovered. In 1961, Leonard Kleinrock of MIT published the first paper on 
+				packet switching theory (and the first book on the subject in 1964). In 1962, Paul Baran of the Rand Corporation described a 
+				robust, efficient, store-and-forward data network in a report for the U.S. Air Force. At about the same time, Donald Davies and 
+				Roger Scantlebury suggested a similar idea from work at the National Physical Laboratory (NPL) in the U.K. The research at MIT 
+				(1961-1967), RAND (1962-1965), and NPL (1964-1967) occurred independently and the principal researchers did not all meet together
+				 until the Association for Computing Machinery (ACM) meeting in 1967. The term packet was adopted from the work at NPL.</p>
+
+				<p>The modern Internet began as a U.S. Department of Defense (DoD) funded experiment to interconnect DoD-funded research sites in 
+				the U.S. The 1967 ACM meeting was also where the initial design for the so-called ARPANET — named for the DoD's Advanced Research 
+				Projects Agency (ARPA) — was first published by Larry Roberts. In December 1968, ARPA awarded a contract to Bolt Beranek and Newman
+				 (BBN) to design and deploy a packet switching network with a proposed line speed of 50 kbps. In September 1969, the first node of 
+				the ARPANET was installed at the University of California at Los Angeles (UCLA), followed monthly with nodes at Stanford Research 
+				Institute (SRI), the University of California at Santa Barbara (UCSB), and the University of Utah. With four nodes by the end of 1969, 
+				the ARPANET spanned the continental U.S. by 1971 and had connections to Europe by 1973.</p>
+
+				<p>The original ARPANET gave life to a number of protocols that were new to packet switching. One of the most lasting results of the 
+				ARPANET was the development of a user-network protocol that has become the standard interface between users and packet switched networks; 
+				namely, ITU-T (formerly CCITT) Recommendation X.25. This "standard" interface encouraged BBN to start Telenet, a commercial packet-switched 
+				data service, in 1974; after much renaming, Telenet became a part of Sprint's X.25 service. </p>
+
+				<p>The initial host-to-host communications protocol introduced in the ARPANET was called the Network Control Protocol (NCP). 
+				Over time, however, NCP proved to be incapable of keeping up with the growing network traffic load. In 1974, a new, more robust suite of 
+				communications protocols was proposed and implemented throughout the ARPANET, based upon the Transmission Control Protocol (TCP) for 
+				end-to-end network communication. But it seemed like overkill for the intermediate gateways (what we would today call routers) 
+				to needlessly have to deal with an end-to-end protocol so in 1978 a new design split responsibilities between a pair of protocols; the new 
+				Internet Protocol (IP) for routing packets and device-to-device communication (i.e., host-to-gateway or gateway-to-gateway) and TCP 
+				for reliable, end-to-end host communication. Since TCP and IP were originally envisioned functionally as a single protocol, the protocol 
+				suite, which actually refers to a large collection of protocols and applications, is usually referred to simply as TCP/IP.</p>
+
+                            </li>
+                        	<!-- End Item Project -->
+                            <!-- Item Project and Filter Name -->						
+							
+                        </ul>
+                    </section>
+                    
+            	</div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
+    </div>
+</div>
+<!-- End Our Work Section -->
+
+<!-- Footer -->
+<footer>
+	<p class="credits">&copy;2015 CMSC2. By <a >J-ve Valencia</a></p>
+</footer>
+<!-- End Footer -->
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="_include.1/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include.1/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include.1/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include.1/js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
+</body>
+</html>
+
+
