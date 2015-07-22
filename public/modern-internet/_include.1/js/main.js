@@ -22,7 +22,6 @@ BRUSHED.mobileNav = function(){
 		}
 	}
 }
-
 BRUSHED.listenerMenu = function(){
 	$('#mobile-nav').on('click', function(e){
 		$(this).toggleClass('open');
